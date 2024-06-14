@@ -1,0 +1,53 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+.header {
+  .logo-icon svg {
+    width: 3rem;
+    height: 3rem;
+    background: linear-gradient(130deg, #d100f3 10%, #002bc5 100%);
+    border-radius: 50%;
+  }
+
+  .header-text {
+    font-weight: 500;
+    margin: 0 3rem;
+  }
+}
+
+.company-btn {
+  white-space: no-wrap;
+  background: linear-gradient(130deg, #d100f3 10%, #002bc5 100%);
+  color: white !important;
+}
+
+.text{
+  text-transform: capitalize;
+}
+
+.form {
+  padding: 24px;
+  .MuiInputLabel-asterisk {
+    color: red;
+  }
+  .form-heading {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  .form-textfield {
+    margin-bottom: 20px !important;
+  }
+}
+
+.heading{
+  font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
